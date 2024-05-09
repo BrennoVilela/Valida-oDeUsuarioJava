@@ -1,4 +1,4 @@
-package com.pickpayteste.repositories;
+package com.pickpayteste.domain.repositories;
 
 import com.pickpayteste.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User> findyUserByDocument(String document);
+    Optional<User> findUserByDocument(String document);
 
-    Optional<User> findyUserById(Long id);
+    Optional<User> findUserById(Long id);
 }

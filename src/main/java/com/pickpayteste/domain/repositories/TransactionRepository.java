@@ -1,4 +1,4 @@
-package com.pickpayteste.repositories;
+package com.pickpayteste.domain.repositories;
 
 import com.pickpayteste.domain.transaction.Transaction;
 import org.springframework.data.jpa.repository.JpaRepository;
